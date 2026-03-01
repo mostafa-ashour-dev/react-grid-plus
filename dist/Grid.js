@@ -13,7 +13,7 @@ var gapOptions = {
     5: "gap-6",
     6: "gap-8",
 };
-export default function GridContainer(_a) {
+export function Grid(_a) {
     var data = _a.data, _b = _a.cols, cols = _b === void 0 ? 3 : _b, _c = _a.gap, gap = _c === void 0 ? 4 : _c, maxItems = _a.maxItems, renderItem = _a.renderItem, scrollable = _a.scrollable, footer = _a.footer, _d = _a.className, className = _d === void 0 ? "" : _d, _e = _a.loading, loading = _e === void 0 ? false : _e, _f = _a.loadingComponent, loadingComponent = _f === void 0 ? _jsx("span", { children: "Loading..." }) : _f, hideFooter = _a.hideFooter, _g = _a.scrollDir, scrollDir = _g === void 0 ? "horizontal" : _g, _h = _a.scrollFit, scrollFit = _h === void 0 ? false : _h;
     var containerRef = useRef(null);
     var _j = useState(undefined), containerFit = _j[0], setContainerFit = _j[1];
@@ -56,3 +56,4 @@ export default function GridContainer(_a) {
                             ? footer.text
                             : "View ".concat(data.length - visibleData.length, " more") }))] }))] }));
 }
+export default Grid;
