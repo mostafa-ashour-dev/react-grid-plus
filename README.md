@@ -2,11 +2,17 @@
 
 A high-performance, flexible grid component for rendering large lists of items efficiently.
 
-## Features
 
-- **Virtualization**: Only renders visible items for optimal performance
-- **Flexible Layouts**: Customizable number of columns and item spacing
-- **Scrolling**: Smooth scroll handling with configurable directions
+## Key Features
+
+- **Responsive Columns**: Automatically adjusts grid layout (2-6 columns)
+- **Flexible Spacing**: Configurable gap sizes for item spacing
+- **Dual Scroll Modes**: Support for both vertical and horizontal scrolling
+- **Pagination Support**: Show limited items with a "view more" footer
+- **Loading States**: Built-in loading component display
+- **Type-Safe**: Full TypeScript support with generic types
+- **Tailwind CSS**: Uses Tailwind utility classes for styling
+
 
 ## Installation
 
@@ -87,14 +93,3 @@ export default function MyComponent() {
 | `loading` | `boolean` | `false` | Shows the loading component when true. Useful for data loading states. |
 | `loadingComponent` | `React.ReactNode` | `<span>Loading...</span>` | Custom component to display while loading. Only shown when `loading` is true. |
 | `className` | `string` | `""` | Additional Tailwind CSS classes to apply to the grid container. |
-
-## Key Features
-
-- **Responsive Columns**: Automatically adjusts grid layout (2-6 columns)
-- **Flexible Spacing**: Configurable gap sizes for item spacing
-- **Dual Scroll Modes**: Support for both vertical and horizontal scrolling
-- **Pagination Support**: Show limited items with a "view more" footer
-- **Loading States**: Built-in loading component display
-- **Type-Safe**: Full TypeScript support with generic types
-- **Tailwind CSS**: Uses Tailwind utility classes for styling
-
