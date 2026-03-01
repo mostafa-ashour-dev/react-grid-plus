@@ -17,7 +17,7 @@ A high-performance, flexible grid component for rendering large lists of items e
 ## Installation
 
 ```bash
-npm install react-grid-plus
+npm install @mostafa-ashour-dev/react-grid-plus
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ npm install react-grid-plus
 ### Basic Example
 
 ```tsx
-import { Grid } from 'react-grid-plus';
+import { Grid } from '@mostafa-ashour-dev/react-grid-plus';
 
 interface Item {
   id: number;
