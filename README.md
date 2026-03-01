@@ -1,4 +1,4 @@
-# React Grid
+# React Grid Plus
 
 A high-performance, flexible grid component for rendering large lists of items efficiently.
 
@@ -41,7 +41,7 @@ const items: Item[] = [
 
 export default function MyComponent() {
   return (
-    <Grid<Item>
+    <Grid
       data={items}
       cols={3}
       gap={4}
@@ -59,7 +59,7 @@ export default function MyComponent() {
 ### Advanced Example with Scrolling
 
 ```tsx
-<Grid<Item>
+<Grid
   data={items}
   cols={4}
   gap={2}

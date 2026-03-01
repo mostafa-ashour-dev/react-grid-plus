@@ -1,12 +1,20 @@
 {
-  "name": "react-grid",
-   "version": "0.1.0",
+  "name": "@mostafa-ashour-dev/react-grid-plus",
+  "version": "4.0.5",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx tsc",
     "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mostafa-ashour-dev/react-grid-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mostafa-ashour-dev/react-grid-plus/issues"
+  },
+  "homepage": "https://github.com/mostafa-ashour-dev/react-grid-plus#readme",
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
